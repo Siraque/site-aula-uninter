@@ -1,0 +1,194 @@
+/* Definindo letra e e removendo as margens e preenchimento padrão */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    place-items: center;
+  }
+  
+/* Definindo a cor de fundo, espaçamento e centralização do texto */ 
+  header {
+    background-color: #333;
+    color: rgb(142, 224, 224);
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  /*Exibe imagem e texto lado a lado e centralizado verticalmente.*/
+  .logo-container{
+    display: flex;
+    align-items: center;
+  }
+
+  /*Ajuste da imagem de banner*/
+  .imagem-banner {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+ /* Customização da barra de navegação, links centralizados e munda de cor com o passar do mouse */
+  nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Rodapé fixo na parte inferior */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+  }
+  
+  /* Título centralizado com borda e imagens responsivas e centralizadas, com sombra. */
+  .texto-formacao{
+    text-align: center;
+    border: 2px solid black; 
+    padding: 10px;            
+  }
+
+  .imagens-formacao {
+    display: flex;
+    justify-content: center;      
+    gap: 20px;                    
+    flex-wrap: wrap;             
+    margin-top: 20px;
+  }
+
+  .imagens-formacao img {
+    width: 200px;                 
+    height: auto;                 
+    border-radius: 10px;          
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  /* Formulário centralizado com fundo branco e sombra, campos e botão estilizados. */ 
+  .contato{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+    padding: 60px;
+  }
+
+  .contato h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .contato input,
+  .contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    }
+
+  .contato textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .contato button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contato button:hover {
+    background-color: #218838;
+  }
+
+/* Imagens com bordas roxas, arredondadas e com sombra. Textos organizados e com margem. */
+.imagens-sobre{
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    text-align: center;
+    padding: 40px;
+    gap: 40px;             
+    flex-wrap: wrap; 
+}
+
+.imagem-pokemon img,
+.imagem-rock img {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 80%;
+  border: 5px solid #6f19bb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.texto-sobre {
+  max-width: 600px;
+}
+
+.texto-sobre h1, .texto-sobre h2 {
+  margin: 10px 0;
+}
+
+.imagem-port{
+  width: 450px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 80%;
+  border: 5px solid #2974d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.imagem-inicio{
+  align-content: center;
+  border: 5px solid #b43366;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
